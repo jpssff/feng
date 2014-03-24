@@ -1,3 +1,11 @@
+# 使用方式 
+# git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+# cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+# chsh -s /bin/zsh
+# git clone git@github.com:jpssff/feng.git ~/feng
+# source ~/feng/zshrc
+
+
 alias Fdiruse='du -s * | sort -k1,1rn | head'
 
 alias baeci='svn16 ci -m "by feng"'

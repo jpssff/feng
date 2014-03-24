@@ -1,7 +1,6 @@
 set nocompatible              " be iMproved
 filetype off                  " required!
 
-
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -29,7 +28,7 @@ inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i
 nnoremap <C-P> :call PhpDocSingle()<CR> 
 vnoremap <C-P> :call PhpDocRange()<CR> 
 
-Plugin "mattn/emmet-vim"
+"Plugin "mattn/emmet-vim"
 
 "TList
 Plugin 'taglist.vim'

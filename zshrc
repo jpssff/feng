@@ -5,6 +5,8 @@
 # git clone git@github.com:jpssff/feng.git ~/feng
 # source ~/feng/zshrc
 
+prefix=$(cd "$(dirname "$0")"; pwd)
+path_scripts="$prefix/scripts"
 
 alias Fdiruse='du -s * | sort -k1,1rn | head'
 
@@ -46,3 +48,5 @@ ex () {
     echo "'$1' is not a valid file"
   fi
 }
+
+. $path_scripts/z.sh

@@ -15,9 +15,11 @@ Plugin 'snipMate'
 
 "Plugin 'candy.vim'
 "colorscheme candy
-Plugin 'Solarized'
-set background=dark
-colorscheme Solarized
+"Plugin 'Solarized'
+"set background=dark
+"colorscheme Solarized
+Plugin 'molokai'
+colorscheme molokai
 
 Plugin 'SingleCompile'
 nmap <F9> :SCCompile<cr>
@@ -28,7 +30,8 @@ inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i
 nnoremap <C-P> :call PhpDocSingle()<CR> 
 vnoremap <C-P> :call PhpDocRange()<CR> 
 
-"Plugin "mattn/emmet-vim"
+Plugin 'mattn/emmet-vim'
+let g:user_emmet_expandabbr_key = '<c-,>'
 
 "TList
 Plugin 'taglist.vim'

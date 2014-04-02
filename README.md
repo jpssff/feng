@@ -18,6 +18,11 @@ zsh使用
 vim配置
 -------
 
+准备：
+
+    [ -d $HOME/.vim ] && mv ~/.vim ~/.vim.bak
+    ls -s ~/feng/vim ~/.vim
+
 先安装`vundle`：
 
 	git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle

@@ -4,41 +4,41 @@ filetype off                  " required!
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Plugin 'gmarik/vundle'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'html5.vim'
-Plugin 'indenthtml.vim'
-Plugin 'Better-Javascript-Indentation'
-Plugin 'The-NERD-Commenter'
-Plugin 'Markdown'
-Plugin 'snipMate'
+Bundle 'gmarik/vundle'
+Bundle 'plasticboy/vim-markdown'
+Bundle 'html5.vim'
+Bundle 'indenthtml.vim'
+Bundle 'Better-Javascript-Indentation'
+Bundle 'The-NERD-Commenter'
+Bundle 'Markdown'
+Bundle 'snipMate'
 
-"Plugin 'candy.vim'
+"Bundle 'candy.vim'
 "colorscheme candy
-"Plugin 'Solarized'
+"Bundle 'Solarized'
 "set background=dark
 "colorscheme Solarized
-Plugin 'molokai'
+Bundle 'molokai'
 colorscheme molokai
 
-Plugin 'SingleCompile'
+Bundle 'SingleCompile'
 nmap <F9> :SCCompile<cr>
 nmap <F10> :SCCompileRun<cr> 
 
-Plugin 'PDV--phpDocumentor-for-Vim'
+Bundle 'PDV--phpDocumentor-for-Vim'
 inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i 
 nnoremap <C-P> :call PhpDocSingle()<CR> 
 vnoremap <C-P> :call PhpDocRange()<CR> 
 
-Plugin 'mattn/emmet-vim'
+Bundle 'mattn/emmet-vim'
 let g:user_emmet_expandabbr_key = '<C-L>'
 
 "TList
-Plugin 'taglist.vim'
+Bundle 'taglist.vim'
 "autocmd BufNewFile,BufRead *.py,*.c,*.h :TlistOpen
 map <F2> :TlistToggle<CR>
 
-Plugin 'mru.vim'
+Bundle 'mru.vim'
 "配置最近编辑文件列表个数
 "let MRU_Max_Menu_Entries = 100
 "let MRU_Window_Height = 15
@@ -53,7 +53,7 @@ function s:MruToggle()
 endfunction
 
 "NerdTree
-Plugin 'The-NERD-tree'
+Bundle 'The-NERD-tree'
 map <F4> :call <SID>FileTreeToggle()<CR>
 map <leader><F4> :NERDTreeFind<CR>
 imap <F4> <ESC>:call <SID>FileTreeToggle<CR>
@@ -66,8 +66,8 @@ function s:FileTreeToggle()
     endif
 endfunction
 
-Plugin 'L9'
-Plugin 'FuzzyFinder'
+Bundle 'L9'
+Bundle 'FuzzyFinder'
 nnoremap <silent> sj     :FufBuffer<CR>
 nnoremap <silent> sk     :FufFileWithCurrentBufferDir<CR>
 nnoremap <silent> sK     :FufFileWithFullCwd<CR>

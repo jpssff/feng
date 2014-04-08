@@ -48,5 +48,3 @@ ex () {
     echo "'$1' is not a valid file"
   fi
 }
-
-. $path_scripts/z.sh

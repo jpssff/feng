@@ -127,6 +127,9 @@ let html_use_css = 1
 "是否需要强制显示行号
 "let html_number_lines = 1
 
+"快速搜索当前目录下的文件
+"autocmd BufRead * set path=expand('%:h').'/**'
+
 "修正文件类型
 autocmd BufNewFile,BufRead *.tpl,*.htm,tplt set filetype=html
 autocmd BufNewFile,BufRead *.xaml set filetype=xml

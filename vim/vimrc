@@ -92,6 +92,9 @@ set encoding=utf8
 set fencs=utf8,cp936
 set termencoding=utf-8
 
+"每行80字符提示线 
+set cc=80
+
 "通用的一些样式
 "colorscheme wf2
 set laststatus=2
@@ -140,6 +143,9 @@ autocmd BufNewFile,BufReadPost *.jade set filetype=jade shiftwidth=2 tabstop=2 |
 
 "编辑html、css、less文件时，减号认为是单词的一部分
 autocmd BufNewFile,BufRead *.tpl,*.htm,tplt,*.html,*.css,*.less set iskeyword+=\-
+
+"临时先用着css语法
+autocmd BufNewFile,BufRead *.less set ft=css
 
 "编辑文本文件时，tab不要变成空格
 autocmd BufNewFile,BufRead *.txt,*.text,*.data set noexpandtab

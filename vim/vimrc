@@ -6,12 +6,10 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'plasticboy/vim-markdown'
-Bundle 'html5.vim'
-Bundle 'indenthtml.vim'
-Bundle 'Better-Javascript-Indentation'
 Bundle 'The-NERD-Commenter'
 Bundle 'Markdown'
 Bundle 'snipMate'
+Bundle 'editorconfig-vim'
 
 "Bundle 'candy.vim'
 "colorscheme candy

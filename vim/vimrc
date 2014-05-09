@@ -31,7 +31,7 @@ nnoremap <C-P> :call PhpDocSingle()<CR>
 vnoremap <C-P> :call PhpDocRange()<CR> 
 
 Bundle 'mattn/emmet-vim'
-let g:user_emmet_expandabbr_key = '<C-L>'
+let g:user_emmet_expandabbr_key = '<Tab>'
 
 "TList
 Bundle 'taglist.vim'

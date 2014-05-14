@@ -10,6 +10,7 @@ Bundle 'The-NERD-Commenter'
 Bundle 'Markdown'
 Bundle 'snipMate'
 Bundle 'editorconfig-vim'
+Bundle 'junegunn/vim-easy-align'
 
 "Bundle 'candy.vim'
 "colorscheme candy
@@ -84,6 +85,7 @@ filetype plugin indent on     " required!
 set nobk
 sy on
 set hls
+set helplang=cn
 
 "内码使用utf8，优先以utf8尝试解码
 set encoding=utf8

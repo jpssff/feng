@@ -30,7 +30,7 @@ nnoremap <C-P> :call PhpDocSingle()<CR>
 vnoremap <C-P> :call PhpDocRange()<CR> 
 
 Bundle 'mattn/emmet-vim'
-let g:user_emmet_expandabbr_key = '<Tab>'
+let g:user_emmet_expandabbr_key = '<leader><leader>'
 
 "TList
 Bundle 'taglist.vim'
@@ -92,8 +92,6 @@ set encoding=utf8
 set fencs=utf8,cp936
 set termencoding=utf-8
 
-"每行80字符提示线 
-set cc=80
 
 "通用的一些样式
 "colorscheme wf2
@@ -192,6 +190,10 @@ map <leader>l :so $VIMRUNTIME/macros/less.vim<CR>
 
 """""""""" GUI设置 """"""""""""
 if has('gui_running')
+    "每行80字符提示线 
+    set cc=80
+
+    "设置windows、其他的字体大小 
     if has('win')
         let s:default_vimrc_font_height = 11.5
     else

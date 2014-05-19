@@ -17,6 +17,7 @@ Bundle 'junegunn/vim-easy-align'
 "Bundle 'Solarized'
 "set background=dark
 "colorscheme Solarized
+set t_Co=256
 Bundle 'molokai'
 colorscheme molokai
 

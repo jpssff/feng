@@ -7,7 +7,6 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'The-NERD-Commenter'
-Bundle 'Markdown'
 Bundle 'snipMate'
 Bundle 'editorconfig-vim'
 Bundle 'junegunn/vim-easy-align'
@@ -17,7 +16,7 @@ Bundle 'junegunn/vim-easy-align'
 "Bundle 'Solarized'
 "set background=dark
 "colorscheme Solarized
-set t_Co=256
+"set t_Co=256
 Bundle 'molokai'
 colorscheme molokai
 

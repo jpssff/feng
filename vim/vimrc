@@ -70,17 +70,13 @@ endfunction
 
 Bundle 'L9'
 Bundle 'FuzzyFinder'
-let g:fuf_modesDisable = 1
+let g:fuf_modesDisable = []
 nnoremap <silent> sj     :FufBuffer<CR>
 nnoremap <silent> sk     :FufFileWithCurrentBufferDir<CR>
 nnoremap <silent> sK     :FufFileWithFullCwd<CR>
-nnoremap <silent> s<C-k> :FufFile<CR>
 nnoremap <silent> sl     :FufCoverageFileChange<CR>
-nnoremap <silent> sL     :FufCoverageFileChange<CR>
-nnoremap <silent> s<C-l> :FufCoverageFileRegister<CR>
 nnoremap <silent> sd     :FufDirWithCurrentBufferDir<CR>
 nnoremap <silent> sD     :FufDirWithFullCwd<CR>
-nnoremap <silent> s<C-d> :FufDir<CR>
 nnoremap <silent> ss     :FufCoverageFile<CR>
 nnoremap <silent> sa     :FufMruFile<CR>
 nnoremap <silent> sm     :FufMruCmd<CR>

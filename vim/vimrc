@@ -20,7 +20,7 @@ set background=dark
 "set t_Co=256
 "Bundle 'molokai'
 "colorscheme molokai
-Plugin 'Lucius'
+Bundle 'Lucius'
 colorscheme lucius
 
 Bundle 'SingleCompile'

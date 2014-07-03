@@ -8,6 +8,8 @@
 prefix=$(cd "$(dirname "$0")"; pwd)
 path_scripts="$prefix/scripts"
 
+export SVN_EDITOR='vim'
+
 alias Fdiruse='du -s * | sort -k1,1rn | head'
 
 alias baeci='svn16 ci -m "by feng"'

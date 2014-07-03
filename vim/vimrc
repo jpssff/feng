@@ -91,6 +91,8 @@ sy on
 set hls
 set helplang=cn
 
+set backspace=indent,eol,start
+
 "内码使用utf8，优先以utf8尝试解码
 set encoding=utf8
 set fencs=utf8,cp936

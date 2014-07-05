@@ -15,7 +15,6 @@ Bundle "pangloss/vim-javascript"
 
 Bundle 'Shougo/vimshell.vim'
 
-"set background=dark
 Bundle 'tomasr/molokai'
 if has('gui_running')
     colorscheme molokai
@@ -91,6 +90,8 @@ set nobk
 sy on
 set hls
 set helplang=cn
+
+set backspace=indent,eol,start
 
 "内码使用utf8，优先以utf8尝试解码
 set encoding=utf8

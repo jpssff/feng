@@ -10,18 +10,19 @@ Bundle 'The-NERD-Commenter'
 Bundle 'snipMate'
 Bundle 'editorconfig-vim'
 Bundle 'junegunn/vim-easy-align'
+Bundle 'tpope/vim-fugitive'
+Bundle "pangloss/vim-javascript"
 
-set background=dark
-"Bundle 'candy.vim'
-"colorscheme candy
-"Bundle 'Solarized'
+Bundle 'Shougo/vimshell.vim'
+
 "set background=dark
-"colorscheme Solarized
-"set t_Co=256
-"Bundle 'molokai'
-"colorscheme molokai
-Plugin 'Lucius'
-colorscheme lucius
+Bundle 'tomasr/molokai'
+if has('gui_running')
+    colorscheme molokai
+    set t_Co=256
+else
+    colorscheme desert
+endif
 
 Bundle 'SingleCompile'
 nmap <F9> :SCCompile<cr>

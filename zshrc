@@ -22,13 +22,25 @@ alias co_bae_drawing='svn co https://svn.duapp.com/appid34raingc2h/0 ~/bae/drawi
 alias cd_bae_vim='cd ~/bae/vim'
 alias cd_bae_drawing='cd ~/bae/drawing'
 
-alias relay="ssh fengweifeng@relay01.baidu.com"
-alias relay01="ssh fengweifeng@relay01.baidu.com"
-alias relay02="ssh fengweifeng@relay02.baidu.com"
+#alias relay="ssh fengweifeng@relay01.baidu.com"
+#alias relay01="ssh fengweifeng@relay01.baidu.com"
+#alias relay02="ssh fengweifeng@relay02.baidu.com"
 
 alias http="python -m SimpleHTTPServer"
 
-ex () {
+function relay {
+    ssh fengweifeng@relay01.baidu.com
+#    expect<<EOF
+#        set timeout 10
+#        spawn ssh -o StrictHostKeyChecking=no fengweifeng@relay01.baidu.com
+#        expect "password:"
+#        send "1111"
+#        expect eof
+#        interact
+#EOF
+}
+
+function ex () {
   if [ -f $1 ] ; then
     case $1 in
       *.tar.bz2)   tar xjf $1        ;;

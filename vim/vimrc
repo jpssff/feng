@@ -15,6 +15,10 @@ Bundle "pangloss/vim-javascript"
 
 Bundle 'Shougo/vimshell.vim'
 
+Bundle 'SirVer/ultisnips'
+Bundle 'jordwalke/JSDocSnippets'
+let g:JSDocSnippetsMapping='<D-C>'
+
 Bundle 'tomasr/molokai'
 if has('gui_running')
     colorscheme molokai

@@ -9,7 +9,10 @@ Bundle 'plasticboy/vim-markdown'
 Bundle 'The-NERD-Commenter'
 Bundle 'snipMate'
 Bundle 'editorconfig-vim'
+
 Bundle 'junegunn/vim-easy-align'
+vmap <Enter> <Plug>(EasyAlign)
+
 Bundle 'tpope/vim-fugitive'
 Bundle "pangloss/vim-javascript"
 

@@ -18,7 +18,7 @@ Bundle "pangloss/vim-javascript"
 
 Bundle 'Shougo/vimshell.vim'
 
-Bundle 'tomasr/molokai'
+Bundle 'molokai'
 if has('gui_running')
     colorscheme molokai
     set t_Co=256
@@ -249,6 +249,9 @@ endif
 
 """"""""" windows gvim设置 """"""""
 if has('win32') || has('win64')
+
+    language messages zh_CN.utf-8
+
     "防止菜单发生乱码
     set langmenu=zh_CN
     source $VIMRUNTIME/delmenu.vim

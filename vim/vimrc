@@ -18,7 +18,6 @@ Bundle "pangloss/vim-javascript"
 
 Bundle 'Shougo/vimshell.vim'
 
-Bundle 'molokai'
 if has('gui_running')
     colorscheme molokai
     set t_Co=256

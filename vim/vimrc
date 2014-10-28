@@ -169,6 +169,9 @@ autocmd Filetype php set dictionary+=$vimfiles/dict/php
 "<F12>快速编辑.vimrc
 map <F12> :e $MYVIMRC<CR>
 
+"gf使用新窗口打开文件
+map gf :new %:p:h/<cfile><CR>
+
 "<F11>快速编辑记事本
 map <F11> :e ~/.vim/feng.text<CR>
 
